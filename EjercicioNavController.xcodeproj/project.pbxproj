@@ -21,6 +21,8 @@
 		80C9A23318D4CFE900B45DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C9A21518D4CFE900B45DCD /* UIKit.framework */; };
 		80C9A23B18D4CFE900B45DCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80C9A23918D4CFE900B45DCD /* InfoPlist.strings */; };
 		80C9A23D18D4CFE900B45DCD /* EjercicioNavControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9A23C18D4CFE900B45DCD /* EjercicioNavControllerTests.m */; };
+		80C9A24818D4D13500B45DCD /* Flujo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9A24718D4D13500B45DCD /* Flujo2ViewController.m */; };
+		80C9A24B18D4D14100B45DCD /* Flujo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C9A24A18D4D14100B45DCD /* Flujo3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		80C9A23818D4CFE900B45DCD /* EjercicioNavControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjercicioNavControllerTests-Info.plist"; sourceTree = "<group>"; };
 		80C9A23A18D4CFE900B45DCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80C9A23C18D4CFE900B45DCD /* EjercicioNavControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjercicioNavControllerTests.m; sourceTree = "<group>"; };
+		80C9A24618D4D13500B45DCD /* Flujo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flujo2ViewController.h; sourceTree = "<group>"; };
+		80C9A24718D4D13500B45DCD /* Flujo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flujo2ViewController.m; sourceTree = "<group>"; };
+		80C9A24918D4D14100B45DCD /* Flujo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flujo3ViewController.h; sourceTree = "<group>"; };
+		80C9A24A18D4D14100B45DCD /* Flujo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flujo3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				80C9A22718D4CFE900B45DCD /* ViewController.m */,
 				80C9A22918D4CFE900B45DCD /* Images.xcassets */,
 				80C9A21818D4CFE900B45DCD /* Supporting Files */,
+				80C9A24618D4D13500B45DCD /* Flujo2ViewController.h */,
+				80C9A24718D4D13500B45DCD /* Flujo2ViewController.m */,
+				80C9A24918D4D14100B45DCD /* Flujo3ViewController.h */,
+				80C9A24A18D4D14100B45DCD /* Flujo3ViewController.m */,
 			);
 			path = EjercicioNavController;
 			sourceTree = "<group>";
@@ -251,6 +261,8 @@
 			files = (
 				80C9A22818D4CFE900B45DCD /* ViewController.m in Sources */,
 				80C9A22218D4CFE900B45DCD /* AppDelegate.m in Sources */,
+				80C9A24B18D4D14100B45DCD /* Flujo3ViewController.m in Sources */,
+				80C9A24818D4D13500B45DCD /* Flujo2ViewController.m in Sources */,
 				80C9A21E18D4CFE900B45DCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
